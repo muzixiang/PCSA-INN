@@ -19,7 +19,7 @@ This repository provides the official PyTorch implementation of the PCSA-INN arc
 
 For peer review reproducibility, the pre-trained weights for the PCSA-INN framework are hosted via GitHub Releases to accommodate the file size.
 
-- **Download Link:** [best_model.pth](https://github.com/muzixiang/PCSA-INN/releases/download/v1.0/best_model.pth)
+- **Download Link:** [best_model.pth](https://zenodo.org/records/19677131/files/best_model.pth?download=1)
 
 **Setup:** Please download the `best_model.pth` file from the link above and place it directly in the **root directory** of this repository before executing the inference scripts.
 
