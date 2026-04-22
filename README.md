@@ -112,7 +112,7 @@ Scatter density and latent space distributions confirming the model successfully
 ![Latent Distribution](./appendix_images/latent_distribution.png)
 *(Ref: Supplementary Figure S7)*
 
-### 4. Inverse Retrieval Performance
+### 4. Inverse Atmospheric Correction Performance
 Cumulative Distribution Function (CDF) and relative error across target bands, confirming strict physical error bounds.
 ![Inverse CDF](./appendix_images/inverse_cdf.png)
 *(Ref: Supplementary Figure S8)*
