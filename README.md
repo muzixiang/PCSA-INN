@@ -89,3 +89,44 @@ The provided scripts will automatically load the pre-trained `best_model.pth` an
     # 2. Verify the Forward Pipeline (RTM Surrogate Validation: R_rs -> L_TOA)
     # This validates the forward bijective mapping and extracts the latent variable Z.
     python inference_forward.py
+
+
+## Supplementary Material: Core Figures and Results
+
+> **📌 Note:** This section provides a streamlined visual summary of the supplementary materials. The complete mathematical proofs and detailed tables can be found in the [Full Supplementary PDF](./Supplementary.pdf).
+
+### 1. Data Processing & Quality Control
+The strict hierarchical bit-mask screening and spatiotemporal alignment pipeline ensuring physical authenticity.
+![Data Processing Flowchart](./appendix_images/data_processing.png) 
+*(Ref: Supplementary Figure S3)*
+
+### 2. Training Dynamics
+Convergence curves demonstrating the stability of our bidirectional joint loss framework.
+![Loss Curves](./appendix_images/loss.png)
+*(Ref: Supplementary Figure S4)*
+
+### 3. Forward RTM Surrogate Validation
+Scatter density and latent space distributions confirming the model successfully disentangles deterministic physics from stochastic atmospheric noise.
+![Forward Simulation](./appendix_images/forward_simulation.png)
+*(Ref: Supplementary Figure S5)*
+![Latent Distribution](./appendix_images/latent_distribution.png)
+*(Ref: Supplementary Figure S7)*
+
+### 4. Inverse Retrieval Performance
+Cumulative Distribution Function (CDF) and relative error across target bands, confirming strict physical error bounds.
+![Inverse CDF](./appendix_images/inverse_cdf.png)
+*(Ref: Supplementary Figure S8)*
+![MdAPD Bar Chart](./appendix_images/mdapd_bar.png)
+*(Ref: Supplementary Figure S9)*
+
+### 5. Spectral Fidelity across Optical Water Types
+Validation of physical spectral morphology preservation under extreme Case-2 and Case-1 water conditions.
+![Case-2 Spectra](./appendix_images/spectra_case2.png)
+*(Ref: Supplementary Figure S10)*
+![Case-1 Spectra](./appendix_images/spectra_case1.png)
+*(Ref: Supplementary Figure S11)*
+
+### 6. Spatial Coherence & Generalization
+Demonstration of full-spectrum spatial coherence and 100% valid data coverage in unseen complex environments (e.g., Amazon River Estuary).
+![Amazon Generalization](./appendix_images/amazon_comparison.png)
+*(Ref: Supplementary Figure S13)*
