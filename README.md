@@ -127,6 +127,14 @@ Validation of physical spectral morphology preservation under extreme Case-2 and
 *(Ref: Supplementary Figure S11)*
 
 ### 6. Spatial Coherence & Generalization
-Demonstration of full-spectrum spatial coherence and 100% valid data coverage in unseen complex environments (e.g., Amazon River Estuary).
+**Bohai and Yellow Seas (Primary Domain):**
+![Bohai Full Spectrum](./appendix_images/bohai_full_spectrum.png)
+*(Ref: Supplementary Figure S12)*
+
+**Amazon River Estuary (Unseen Complex Waters):**
 ![Amazon Generalization](./appendix_images/amazon_comparison.png)
 *(Ref: Supplementary Figure S13)*
+
+**The Bahamas (Clear Case-1 Waters):**
+![Bahamas Downward Compatibility](./appendix_images/bahamas.png)
+*(Ref: Supplementary Figure S14)*
